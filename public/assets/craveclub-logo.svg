@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 100" width="150" height="50">
+  <!-- Icon (recreated to match the original mark) -->
+  <g fill="#000000">
+    <!-- Main body + peak -->
+    <path d="M18 72 
+             C18 72 22 55 28 42 
+             C32 32 38 22 42 18 
+             L48 28 
+             C52 38 54 48 52 62 
+             C50 72 42 78 32 78 
+             C24 78 18 74 18 72 Z"/>
+    <!-- Circle head / core -->
+    <circle cx="58" cy="52" r="22"/>
+    <!-- Inner white circle (creates the hollow look) -->
+    <circle cx="58" cy="52" r="10" fill="#FFFFFF"/>
+  </g>
+
+  <!-- Text -->
+  <text x="95" y="68" 
+        font-family="Arial Black, Arial, Helvetica, sans-serif" 
+        font-size="52" 
+        font-weight="600" 
+        fill="#d61f1f" 
+        letter-spacing="-1.5">
+    CraveClub
+  </text>
+</svg>
