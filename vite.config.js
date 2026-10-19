@@ -5,5 +5,5 @@ import tailwindcss from "@tailwindcss/vite";
 
 export default defineConfig({
   plugins: [react(), tailwindcss()],
-  // base: "/craveclub---Premium-Restaurant/",
+  base: "/craveclub---A-Premium-Restaurant/",
 });
