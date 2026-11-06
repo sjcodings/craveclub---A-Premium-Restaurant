@@ -26,7 +26,11 @@ const Navbar = () => {
         ${scrolled ? "background-white/70 backdrop-blur-md": "bg-transparent"}`}>
             <div className='flex items-center justify-between font-medium py-4 mx-auto max-w-7xl'>
                 <a href="">
-                <img src="/assets/craveclub-logo.svg" alt="logo" />
+                {/* <img src="/assets/craveclub-logo.svg" alt="logo" /> */}
+                <img
+                    src={`${import.meta.env.BASE_URL}assets/logo.png`}
+                    alt="CraveClub Logo"
+                />
                 </a>
                 
                 {/* desktop navigation links */}

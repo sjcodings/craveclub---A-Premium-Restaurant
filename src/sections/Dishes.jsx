@@ -27,7 +27,12 @@ const Dishes = () => {
                 onMouseEnter = {() => setRotate((prev) => ({...prev, [index]: (prev[index] || 0) + 180 }))}>
 
                     <motion.div animate={{rotate: rotate[index] || 0}} transition={{type: "spring", stiffness: 80, damping: 15}}>
-                        <img src={dish.img} alt={dish.title} className="size-30 md:size-35 object-cover" />
+                        {/* <img src={dish.img} alt={dish.title} className="size-30 md:size-35 object-cover" /> */}
+                   <img
+                        src={`${import.meta.env.BASE_URL}${dish.img.replace(/^\/+/, "")}`}
+                        alt={dish.title}
+                        className="size-30 md:size-35 object-cover"
+                    />
                     </motion.div>
 
                     <h3 className="mt-5">{dish.title}</h3>
