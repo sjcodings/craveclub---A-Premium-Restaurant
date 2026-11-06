@@ -2,10 +2,10 @@ import { Star } from "lucide-react"
 import Animated from "../components/Animated"
 
 const avatar = [
-    "/assets/user-1.jpeg",
-    "/assets/user-2.jpeg",
-    "/assets/user-3.jpeg",
-    "/assets/user-4.jpeg",
+    "/public/assets/user-1.jpeg",
+    "/public/assets/user-2.jpeg",
+    "/public/assets/user-3.jpeg",
+    "/public/assets/user-4.jpeg",
 ]
 
 const HeroSection = () => {
